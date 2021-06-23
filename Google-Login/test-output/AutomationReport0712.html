@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {width : 18%}
+.numi2,.numi2_attn {width : 8%}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:60%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview" id="summary">
+<tr><th>Test CaseID</th><th>Test Scenarios</th><th>Result</th><th>Start Time-<br/>End Time</th><th>Total<br/>Time</th><th></th></tr>
+<tr><th colspan="7">Login Automation Suite</th></tr>
+<tr><td width='5%'>TC_LOGIN_001</td><td style="text-align:left;padding-right:2em;width:20%"><a href='#Verify Login With Blank Email'>Verify Login With Blank Email</a></td><td class="numi2"><center><label style='color:green;'>Passed</label></center></td><td class="numi">07/Dec/20 11:30:56 PM -- 07/Dec/20 11:31:16 PM</td></td>
+</td>
+<td class="numi2">20.0 seconds</td></tr>
+<tr><td width='5%'>TC_LOGIN_002</td><td style="text-align:left;padding-right:2em;width:20%"><a href='#Verify Login With Blank Password'>Verify Login With Blank Password</a></td><td class="numi2"><center><label style='color:green;'>Passed</label></center></td><td class="numi">07/Dec/20 11:31:16 PM -- 07/Dec/20 11:31:39 PM</td></td>
+</td>
+<td class="numi2">23.2 seconds</td></tr>
+<tr><td width='5%'>TC_LOGIN_003</td><td style="text-align:left;padding-right:2em;width:20%"><a href='#Verify Valid Login'>Verify Valid Login</a></td><td class="numi2"><center><label style='color:green;'>Passed</label></center></td><td class="numi">07/Dec/20 11:31:39 PM -- 07/Dec/20 11:32:24 PM</td></td>
+</td>
+<td class="numi2">45.0 seconds</td></tr>
+<tr><td width='5%'>TC_LOGIN_004</td><td style="text-align:left;padding-right:2em;width:20%"><a href='#Verify Login with Invalid Email Id'>Verify Login with Invalid Email Id</a></td><td class="numi2"><center><label style='color:green;'>Passed</label></center></td><td class="numi">07/Dec/20 11:32:24 PM -- 07/Dec/20 11:32:44 PM</td></td>
+</td>
+<td class="numi2">19.9 seconds</td></tr>
+<tr><td width='5%'>TC_LOGIN_005</td><td style="text-align:left;padding-right:2em;width:20%"><a href='#Verify Login with Invalid Password'>Verify Login with Invalid Password</a></td><td class="numi2"><center><label style='color:green;'>Passed</label></center></td><td class="numi">07/Dec/20 11:32:44 PM -- 07/Dec/20 11:33:12 PM</td></td>
+</td>
+<td class="numi2">28.1 seconds</td></tr>
+<tr class="total"><td>Total</td>
+<td>Passed:5<br/>Failed:0<br/>Skipped:0</td>
+<td class="numi"> </td><td class="numi"> </td><td class="numi"> </td><td colspan=2 class="numi"><center>2.3 minutes</center></td></table>
+<h1><div id='Verify Login With Blank Email'>Verify Login With Blank Email</h1></div>
+<div>
+<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin<br/>
+<br />Step 2:-Keep the Email Blank, and Press Enter<br/>
+<br />Step 3:-Now, Verify the validation message for blank email<br/>
+<br/><u><i>DETAILS Entered</i></u><br/>
+<br/>email:<br/>
+<br/><b>Validation Message : Enter an email or phone number</b><br/>
+<br><Strong><font color=#008000>Pass</font></strong><br/>
+</div>
+<hr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1><div id='Verify Login With Blank Password'>Verify Login With Blank Password</h1></div>
+<div>
+<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin<br/>
+<br />Step 2:-Enter Email and Press Enter<br/>
+<br />Step 3:-Then, Keep the Password Blank, and Press Enter<br/>
+<br />Step 4:-Now, Verify the validation message for blank password<br/>
+<br/><b>Validation Message : Enter a password</b><br/>
+<br><Strong><font color=#008000>Pass</font></strong><br/>
+</div>
+<hr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1><div id='Verify Valid Login'>Verify Valid Login</h1></div>
+<div>
+<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin<br/>
+<br />Step 2:-Enter Valid Email & Password and Press Enter<br/>
+<br />Step 3:-Now, Verify the login details<br/>
+<br><Strong><font color=#008000>Login is Successful</font></strong><br/>
+<br/><b>Entered Email is : jaymukul6@gmail.com</b><br/>
+<br><Strong><font color=#008000>Pass</font></strong><br/>
+</div>
+<hr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1><div id='Verify Login with Invalid Email Id'>Verify Login with Invalid Email Id</h1></div>
+<div>
+<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin<br/>
+<br />Step 2:-Keep the Invalid Email, and Press Enter<br/>
+<br />Step 3:-Now, Verify the validation message for invalid email<br/>
+<br/><u><i>DETAILS Entered</i></u><br/>
+<br/>email:jaymukul6@test.com<br/>
+<br/><b>Validation Message : Couldn't find your Google Account</b><br/>
+<br><Strong><font color=#008000>Pass</font></strong><br/>
+</div>
+<hr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1><div id='Verify Login with Invalid Password'>Verify Login with Invalid Password</h1></div>
+<div>
+<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin<br/>
+<br />Step 2:-Enter Valid Email & Invalid Password and Press Enter<br/>
+<br />Step 3:-Now, Verify the validation message for invalid password<br/>
+<br/><b>Validation Message : Wrong password. Try again or click Forgot password to reset it.</b><br/>
+<br><Strong><font color=#008000>Pass</font></strong><br/>
+</div>
+<hr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> Report Customized By Jay Mukul </center>
+</body></html>

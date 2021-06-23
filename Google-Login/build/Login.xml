@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='Login Automation Suite' parallel='tests' thread-count='1'>
+<!-- 	Put IP of localhost/Grid Hub machine -->
+	 <parameter name='selenium.host' value='localhost' /> 
+
+<!-- 	Put Port of localhost RC/Grid Hub machine -->
+	 <parameter name='selenium.port' value='4444' /> 
+	 <parameter name='browser' value="chrome" /> 
+
+<parameter name='url' value='https://accounts.google.com/ServiceLogin'/>
+
+<listeners>
+         <listener class-name='com.sample.google.Login.report.MyReporterListener'/>
+</listeners>
+
+ <test name='Verify Login With Blank Email'>
+	<classes>
+		<class name='com.sample.google.Login.verifications.LoginIndex'>
+			<methods>
+				<include name='VerifyLoginWithBlankEmail'></include>
+			</methods>
+		</class>
+	</classes>
+</test>    
+
+<test name='Verify Login With Blank Password'>
+	<classes>
+		<class name='com.sample.google.Login.verifications.LoginIndex'>
+			<methods>
+				<include name='VerifyLoginWithBlankPassword'></include>
+			</methods>
+		</class>
+	</classes>
+</test>
+
+<test name='Verify Valid Login'>
+	<classes>
+		<class name='com.sample.google.Login.verifications.LoginIndex'>
+			<methods>
+				<include name='VerifyValidLogin'></include>
+			</methods>
+		</class>
+	</classes>
+</test> 
+
+<test name='Verify Login with Invalid Email Id'>
+	<classes>
+		<class name='com.sample.google.Login.verifications.LoginIndex'>
+			<methods>
+				<include name='VerifyLoginWithInvalidEmail'></include>
+			</methods>
+		</class>
+	</classes>
+</test> 
+
+<test name='Verify Login with Invalid Password'>
+	<classes>
+		<class name='com.sample.google.Login.verifications.LoginIndex'>
+			<methods>
+				<include name='VerifyLoginWithInvalidPassword'></include>
+			</methods>
+		</class>
+	</classes>
+</test>
+
+</suite>

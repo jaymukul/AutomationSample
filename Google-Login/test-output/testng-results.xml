@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="20" total="25" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 2:-Keep the Email Blank, and Press Enter]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 3:-Now, Verify the validation message for blank email]]>
+    </line>
+    <line>
+      <![CDATA[<br/><u><i>DETAILS Entered</i></u>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>email:]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b>Validation Message : Enter an email or phone number</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 2:-Enter Email and Press Enter]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 3:-Then, Keep the Password Blank, and Press Enter]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 4:-Now, Verify the validation message for blank password]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b>Validation Message : Enter a password</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 2:-Enter Valid Email & Password and Press Enter]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 3:-Now, Verify the login details]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Login is Successful</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b>Entered Email is : jaymukul6@gmail.com</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 2:-Keep the Invalid Email, and Press Enter]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 3:-Now, Verify the validation message for invalid email]]>
+    </line>
+    <line>
+      <![CDATA[<br/><u><i>DETAILS Entered</i></u>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>email:jaymukul6@test.com]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b>Validation Message : Couldn't find your Google Account</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 2:-Enter Valid Email & Invalid Password and Press Enter]]>
+    </line>
+    <line>
+      <![CDATA[<br />Step 3:-Now, Verify the validation message for invalid password]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b>Validation Message : Wrong password. Try again or click Forgot password to reset it.</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+  </reporter-output>
+  <suite name="Login Automation Suite" duration-ms="139588" started-at="2020-12-08T09:04:19 AEDT" finished-at="2020-12-08T09:06:39 AEDT">
+    <groups>
+    </groups>
+    <test name="Verify Login With Blank Email" duration-ms="22871" started-at="2020-12-08T09:04:19 AEDT" finished-at="2020-12-08T09:04:42 AEDT">
+      <class name="com.sample.google.Login.verifications.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@74650e52]" name="fetchSuiteConfiguration" is-config="true" duration-ms="13" started-at="2020-12-08T09:04:19 AEDT" finished-at="2020-12-08T09:04:19 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de8284b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@74650e52]" name="setUp" is-config="true" duration-ms="11220" started-at="2020-12-08T09:04:19 AEDT" finished-at="2020-12-08T09:04:31 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sample.google.Login.verifications.LoginIndex.VerifyLoginWithBlankEmail() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLoginWithBlankEmail()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@74650e52]" name="VerifyLoginWithBlankEmail" duration-ms="11179" started-at="2020-12-08T09:04:31 AEDT" finished-at="2020-12-08T09:04:42 AEDT">
+          <reporter-output>
+            <line>
+              <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 2:-Keep the Email Blank, and Press Enter]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 3:-Now, Verify the validation message for blank email]]>
+            </line>
+            <line>
+              <![CDATA[<br/><u><i>DETAILS Entered</i></u>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>email:]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b>Validation Message : Enter an email or phone number</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithBlankEmail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@74650e52]" name="tearDown" is-config="true" duration-ms="427" started-at="2020-12-08T09:04:42 AEDT" finished-at="2020-12-08T09:04:42 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithBlankEmail status=SUCCESS method=LoginIndex.VerifyLoginWithBlankEmail()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@74650e52] output=<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.google.Login.verifications.LoginIndex -->
+    </test> <!-- Verify Login With Blank Email -->
+    <test name="Verify Login With Blank Password" duration-ms="24045" started-at="2020-12-08T09:04:42 AEDT" finished-at="2020-12-08T09:05:06 AEDT">
+      <class name="com.sample.google.Login.verifications.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@3cb1ffe6]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2020-12-08T09:04:42 AEDT" finished-at="2020-12-08T09:04:42 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@396e2f39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@3cb1ffe6]" name="setUp" is-config="true" duration-ms="9336" started-at="2020-12-08T09:04:42 AEDT" finished-at="2020-12-08T09:04:52 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sample.google.Login.verifications.LoginIndex.VerifyLoginWithBlankPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLoginWithBlankPassword()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@3cb1ffe6]" name="VerifyLoginWithBlankPassword" duration-ms="14308" started-at="2020-12-08T09:04:52 AEDT" finished-at="2020-12-08T09:05:06 AEDT">
+          <reporter-output>
+            <line>
+              <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 2:-Enter Email and Press Enter]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 3:-Then, Keep the Password Blank, and Press Enter]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 4:-Now, Verify the validation message for blank password]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b>Validation Message : Enter a password</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithBlankPassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@3cb1ffe6]" name="tearDown" is-config="true" duration-ms="396" started-at="2020-12-08T09:05:06 AEDT" finished-at="2020-12-08T09:05:06 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithBlankPassword status=SUCCESS method=LoginIndex.VerifyLoginWithBlankPassword()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@3cb1ffe6] output=<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.google.Login.verifications.LoginIndex -->
+    </test> <!-- Verify Login With Blank Password -->
+    <test name="Verify Valid Login" duration-ms="44650" started-at="2020-12-08T09:05:06 AEDT" finished-at="2020-12-08T09:05:51 AEDT">
+      <class name="com.sample.google.Login.verifications.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@7a187f14]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2020-12-08T09:05:06 AEDT" finished-at="2020-12-08T09:05:06 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a74868d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@7a187f14]" name="setUp" is-config="true" duration-ms="7952" started-at="2020-12-08T09:05:06 AEDT" finished-at="2020-12-08T09:05:14 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sample.google.Login.verifications.LoginIndex.VerifyValidLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyValidLogin()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@7a187f14]" name="VerifyValidLogin" duration-ms="34219" started-at="2020-12-08T09:05:14 AEDT" finished-at="2020-12-08T09:05:49 AEDT">
+          <reporter-output>
+            <line>
+              <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 2:-Enter Valid Email & Password and Press Enter]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 3:-Now, Verify the login details]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Login is Successful</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b>Entered Email is : jaymukul6@gmail.com</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@7a187f14]" name="tearDown" is-config="true" duration-ms="2471" started-at="2020-12-08T09:05:49 AEDT" finished-at="2020-12-08T09:05:51 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyValidLogin status=SUCCESS method=LoginIndex.VerifyValidLogin()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@7a187f14] output=<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.google.Login.verifications.LoginIndex -->
+    </test> <!-- Verify Valid Login -->
+    <test name="Verify Login with Invalid Email Id" duration-ms="20357" started-at="2020-12-08T09:05:51 AEDT" finished-at="2020-12-08T09:06:11 AEDT">
+      <class name="com.sample.google.Login.verifications.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@c46bcd4]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2020-12-08T09:05:51 AEDT" finished-at="2020-12-08T09:05:51 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@12c8a2c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@c46bcd4]" name="setUp" is-config="true" duration-ms="8537" started-at="2020-12-08T09:05:51 AEDT" finished-at="2020-12-08T09:06:00 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sample.google.Login.verifications.LoginIndex.VerifyLoginWithInvalidEmail() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLoginWithInvalidEmail()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@c46bcd4]" name="VerifyLoginWithInvalidEmail" duration-ms="11377" started-at="2020-12-08T09:06:00 AEDT" finished-at="2020-12-08T09:06:11 AEDT">
+          <reporter-output>
+            <line>
+              <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 2:-Keep the Invalid Email, and Press Enter]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 3:-Now, Verify the validation message for invalid email]]>
+            </line>
+            <line>
+              <![CDATA[<br/><u><i>DETAILS Entered</i></u>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>email:jaymukul6@test.com]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b>Validation Message : Couldn't find your Google Account</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidEmail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@c46bcd4]" name="tearDown" is-config="true" duration-ms="440" started-at="2020-12-08T09:06:11 AEDT" finished-at="2020-12-08T09:06:11 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithInvalidEmail status=SUCCESS method=LoginIndex.VerifyLoginWithInvalidEmail()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@c46bcd4] output=<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.google.Login.verifications.LoginIndex -->
+    </test> <!-- Verify Login with Invalid Email Id -->
+    <test name="Verify Login with Invalid Password" duration-ms="27595" started-at="2020-12-08T09:06:11 AEDT" finished-at="2020-12-08T09:06:39 AEDT">
+      <class name="com.sample.google.Login.verifications.LoginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@27808f31]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2020-12-08T09:06:11 AEDT" finished-at="2020-12-08T09:06:11 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e0e6aa2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@27808f31]" name="setUp" is-config="true" duration-ms="7683" started-at="2020-12-08T09:06:11 AEDT" finished-at="2020-12-08T09:06:19 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sample.google.Login.verifications.LoginIndex.VerifyLoginWithInvalidPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLoginWithInvalidPassword()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@27808f31]" name="VerifyLoginWithInvalidPassword" duration-ms="19546" started-at="2020-12-08T09:06:19 AEDT" finished-at="2020-12-08T09:06:39 AEDT">
+          <reporter-output>
+            <line>
+              <![CDATA[<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 2:-Enter Valid Email & Invalid Password and Press Enter]]>
+            </line>
+            <line>
+              <![CDATA[<br />Step 3:-Now, Verify the validation message for invalid password]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b>Validation Message : Wrong password. Try again or click Forgot password to reset it.</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidPassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@27808f31]" name="tearDown" is-config="true" duration-ms="358" started-at="2020-12-08T09:06:39 AEDT" finished-at="2020-12-08T09:06:39 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithInvalidPassword status=SUCCESS method=LoginIndex.VerifyLoginWithInvalidPassword()[pri:0, instance:com.sample.google.Login.verifications.LoginIndex@27808f31] output=<br />Step 1:-Goto This Link https://accounts.google.com/ServiceLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.google.Login.verifications.LoginIndex -->
+    </test> <!-- Verify Login with Invalid Password -->
+  </suite> <!-- Login Automation Suite -->
+</testng-results>
