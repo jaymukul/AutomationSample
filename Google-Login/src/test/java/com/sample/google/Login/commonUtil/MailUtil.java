@@ -21,8 +21,8 @@ import javax.mail.internet.MimeMultipart;
 public class MailUtil {
 
 	private static final int DEFAULT_RETRY_COUNT = 3;
-	private static final String MAIL_SENDER = "rtr.jaymukul@gmail.com";
-	private static final String MAIL_PASSWORD = "D7K*c8K9*?744";
+	private static final String MAIL_SENDER = "";
+	private static final String MAIL_PASSWORD = "";
 	private static final String MAIL_HOST = "smtp.gmail.com";
 	private static final String MAIL_PORT = "587";
 
