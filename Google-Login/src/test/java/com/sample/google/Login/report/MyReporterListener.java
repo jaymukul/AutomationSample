@@ -135,9 +135,9 @@ public class MyReporterListener extends MyReporterListenerAdapter {
     	    
 
 		String str = CommonMethods.returnStringforMail(pass, fail, total, skip, hostaddress);
-		list.add("mukuljay30@outlook.com.au");
-		ccList.add("jay.mukul.30@gmail.com");
-		bccList.add("jaymukul@live.in");
+		list.add("");
+		ccList.add("");
+		bccList.add("");
 
 		Email email = new Email("Automation Script Report for Login", str, list).setCc(ccList).setBcc(bccList);
 		List<String> filePaths = new ArrayList<String>();
